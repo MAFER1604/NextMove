@@ -113,12 +113,14 @@ class TomTomRouteProvider(RouteProvider):
         coord_str = ":".join(f"{p.latitude},{p.longitude}" for p in waypoints)
         url = f"{TOMTOM_BASE_URL}/{coord_str}/json"
         params = {
-    "key": self.api_key,
-    "routeType": "fastest",
-    "traffic": "true",
-    "travelMode": "car",
-    "departAt": "now",
-}
+            "key": self.api_key,
+            "routeType": "fastest",
+            "traffic": "true",
+            "travelMode": "car",
+            "departAt": "now",
+            "instructionsType": "none",
+        }
+
         try:
             resp = self._client.get(url, params=params)
         except httpx.HTTPError as exc:
