@@ -1,0 +1,10 @@
+{
+  "_about": "Configuración del turno FIJO para la presentación en vivo. Usa scenario_kind='fixed_demo'. No se usa para ajustar parámetros del agente.",
+  "seed": 777,
+  "shift_hours": 3.0,
+  "vehicle": "moto",
+  "start_location_zone": 1,
+  "final_destination_zone": 7,
+  "flexibility": "balanced",
+  "narrative": "Sale de Centro (zona 1) rumbo al Tec de Monterrey (zona 7). Con esta semilla y 3 horas de turno, el flujo generado incluye: un pedido rentable aceptable, un pedido 'trampa' de pago alto que viola la capacidad del vehículo (restricción 5), un surge, un cierre vial (restricción de ruta) y un retraso de restaurante de 15 min avanzado el turno. El fallo de modelo se dispara manualmente desde el panel de control durante la demo (POST /model/simulate-failure)."
+}

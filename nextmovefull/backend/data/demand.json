@@ -1,0 +1,31 @@
+{
+  "_about": "Probabilidad de un próximo pedido y ganancia neta promedio esperada, por zona y franja horaria. Determinista: usado únicamente para el término future_value de la puntuación de NextMove.",
+  "default": {
+    "morning": {"p": 0.35, "avg_net": 28.0},
+    "midday": {"p": 0.55, "avg_net": 35.0},
+    "afternoon": {"p": 0.45, "avg_net": 30.0},
+    "evening": {"p": 0.65, "avg_net": 40.0},
+    "night": {"p": 0.20, "avg_net": 22.0}
+  },
+  "7": {
+    "morning": {"p": 0.20, "avg_net": 25.0},
+    "midday": {"p": 0.30, "avg_net": 27.0},
+    "afternoon": {"p": 0.25, "avg_net": 26.0},
+    "evening": {"p": 0.40, "avg_net": 30.0},
+    "night": {"p": 0.10, "avg_net": 18.0}
+  },
+  "11": {
+    "morning": {"p": 0.45, "avg_net": 32.0},
+    "midday": {"p": 0.60, "avg_net": 38.0},
+    "afternoon": {"p": 0.55, "avg_net": 34.0},
+    "evening": {"p": 0.70, "avg_net": 42.0},
+    "night": {"p": 0.25, "avg_net": 24.0}
+  },
+  "5": {
+    "morning": {"p": 0.50, "avg_net": 40.0},
+    "midday": {"p": 0.65, "avg_net": 45.0},
+    "afternoon": {"p": 0.55, "avg_net": 42.0},
+    "evening": {"p": 0.75, "avg_net": 48.0},
+    "night": {"p": 0.15, "avg_net": 20.0}
+  }
+}

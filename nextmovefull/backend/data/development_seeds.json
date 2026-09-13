@@ -1,0 +1,4 @@
+{
+  "_about": "Semillas usadas SOLO para desarrollo/ajuste de parámetros. Nunca se reportan como resultados finales (ver evaluation_seeds.json para eso).",
+  "seeds": [1, 2, 3, 4, 5, 6, 7, 8]
+}

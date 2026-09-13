@@ -1,0 +1,19 @@
+{
+  "_about": "Parámetros generales de la simulación NextMove. Ajustables sin tocar el motor.",
+  "sim_seconds_per_real_second": 30,
+  "tick_interval_sim_seconds": 60,
+  "order_arrival_mean_minutes": 6,
+  "max_active_orders_before_full": 2,
+  "num_zones": 15,
+  "zone_names": {
+    "1": "Centro", "2": "Obispado", "3": "Independencia", "4": "Cumbres",
+    "5": "San Pedro", "6": "Valle Oriente", "7": "Tec de Monterrey",
+    "8": "Contry", "9": "La Alianza", "10": "Del Valle", "11": "Mitras",
+    "12": "Apodaca", "13": "San Nicolás", "14": "Topo Chico", "15": "Cumbres Elite"
+  },
+  "restaurant_prep_min_default": 8,
+  "restaurant_delay_shock_min": 15,
+  "surge_multiplier_default": 1.4,
+  "closure_duration_min_default": 30,
+  "future_demand_lookup_seconds": 60
+}

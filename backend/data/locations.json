@@ -1,0 +1,22 @@
+{
+  "_about": "Zonas predefinidas para el selector del frontend. No es geocodificación libre.",
+  "zones": [
+    {"id": 1, "name": "Centro", "lat": 25.6714, "lng": -100.3095},
+    {"id": 2, "name": "Obispado", "lat": 25.6746, "lng": -100.3389},
+    {"id": 3, "name": "Independencia", "lat": 25.6577, "lng": -100.3298},
+    {"id": 4, "name": "Cumbres", "lat": 25.7205, "lng": -100.3660},
+    {"id": 5, "name": "San Pedro", "lat": 25.6512, "lng": -100.4025},
+    {"id": 6, "name": "Valle Oriente", "lat": 25.6486, "lng": -100.3616},
+    {"id": 7, "name": "Tec de Monterrey", "lat": 25.6514, "lng": -100.2895},
+    {"id": 8, "name": "Contry", "lat": 25.6355, "lng": -100.2825},
+    {"id": 9, "name": "La Alianza", "lat": 25.6975, "lng": -100.2790},
+    {"id": 10, "name": "Del Valle", "lat": 25.6489, "lng": -100.3762},
+    {"id": 11, "name": "Mitras", "lat": 25.6842, "lng": -100.3564},
+    {"id": 12, "name": "Apodaca", "lat": 25.7815, "lng": -100.1884},
+    {"id": 13, "name": "San Nicolás", "lat": 25.7417, "lng": -100.3009},
+    {"id": 14, "name": "Topo Chico", "lat": 25.7231, "lng": -100.3389},
+    {"id": 15, "name": "Cumbres Elite", "lat": 25.7420, "lng": -100.3810}
+  ],
+  "default_start_zone": 1,
+  "default_destination_zone": 7
+}

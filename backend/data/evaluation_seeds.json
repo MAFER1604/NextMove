@@ -1,0 +1,4 @@
+{
+  "_about": "Semillas held-out para reportar resultados. Disjuntas de development_seeds.json. Nunca se usan para ajustar parámetros del agente.",
+  "seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110]
+}

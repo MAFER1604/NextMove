@@ -1,0 +1,21 @@
+{
+  "_about": "Perfiles de vehículo usados por el simulador y el motor de decisión. Visible y editable, no enterrado en código.",
+  "bike": {
+    "speed_kmh": 14,
+    "capacity_kg": 5.0,
+    "capacity_liters": 15.0,
+    "fuel_mxn_per_km": 0.0
+  },
+  "moto": {
+    "speed_kmh": 32,
+    "capacity_kg": 15.0,
+    "capacity_liters": 40.0,
+    "fuel_mxn_per_km": 1.2
+  },
+  "car": {
+    "speed_kmh": 28,
+    "capacity_kg": 40.0,
+    "capacity_liters": 120.0,
+    "fuel_mxn_per_km": 2.0
+  }
+}
